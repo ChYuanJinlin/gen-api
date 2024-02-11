@@ -1,0 +1,23 @@
+{
+  "name": "gen-yapi",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "bin/gen-yapi.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-yapi": "gen-yapi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "inquirer": "^6.5.2",
+    "ora": "^3.4.0",
+    "puppeteer": "^22.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
