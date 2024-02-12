@@ -27,6 +27,7 @@ module.exports = {
   //     `;
   //   },
   // yapi项目配置项
+  // todo 优化 如果只传一个项目id的话，不需要对象
   projects: [
     {
       // yapi分类id 不填则生成项目下的全部接口
@@ -36,7 +37,7 @@ module.exports = {
     },
     {
       // yapi分类id 不填则生成项目下的全部接口
-      catIds: [18444, 18574],
+      // catIds: [18444, 18574],
       // 项目id
       projectId: "3947",
     },

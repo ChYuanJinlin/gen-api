@@ -1,42 +1,12 @@
 /* 
-@描述:  
-@地址:http://api.doc.jiyou-tech.com/project/3975/interface/api/cat_18584
-引入:import {Hhh,Hhh,Test,Dasdsa,Tesdas,Hgh} from '@/api/index.js'
+@项目名称:  
+@地址:http://api.doc.jiyou-tech.com/project/3947/interface/api
+引入:import {Test,Dasdsa,Tesdas,Hgh} from '@/api/index.js'
 */
 import request from "@/utils/request";
 
 /* 
-@描述: kjlk 
-@地址:http://api.doc.jiyou-tech.com/project/3975/interface/api/57563
-*/
-export function Hhh(query) {
-  return request({
-    url: "/hhh",
-    method: "GET",
-    params: query,
-  });
-}
-/* 
-@描述:  
-@地址:http://api.doc.jiyou-tech.com/project/3975/interface/api/cat_18584
-引入:import {Hhh} from '@/api/index.js'
-*/
-import request from "@/utils/request";
-
-/* 
-@描述: kjlk 
-@地址:http://api.doc.jiyou-tech.com/project/3975/interface/api/57563
-*/
-export function Hhh(query) {
-  return request({
-    url: "/hhh",
-    method: "GET",
-    params: query,
-  });
-}
-
-/* 
-@描述: 测试yapi 
+@菜单名称: 测试yapi 
 @地址:http://api.doc.jiyou-tech.com/project/3947/interface/api/57158
 */
 export function Test(query) {
@@ -48,7 +18,7 @@ export function Test(query) {
 }
 
 /* 
-@描述: dsasdas 
+@菜单名称: dsasdas 
 @地址:http://api.doc.jiyou-tech.com/project/3947/interface/api/57163
 */
 export function Dasdsa(query) {
@@ -60,7 +30,7 @@ export function Dasdsa(query) {
 }
 
 /* 
-@描述: 测试更新接口 
+@菜单名称: 测试更新接口 
 @地址:http://api.doc.jiyou-tech.com/project/3947/interface/api/57173
 */
 export function Tesdas(query) {
@@ -72,7 +42,7 @@ export function Tesdas(query) {
 }
 
 /* 
-@描述: ghjh 
+@菜单名称: ghjh 
 @地址:http://api.doc.jiyou-tech.com/project/3947/interface/api/57558
 */
 export function Hgh(query) {
