@@ -340,7 +340,7 @@ global.Generator = class Generator {
         this.apis.unshift(
           this.setHeader(
             this.projectName,
-            this.selectName.replaceAll("\\", "/").match(/src(.*)$/)[1],
+            this.selectName.replace("\\g", "/").match(/src(.*)$/)[1],
             this.totalApiNames.join(","),
             this.apiUrl
           )
@@ -352,7 +352,7 @@ global.Generator = class Generator {
         this.apis.unshift(
           this.setHeader(
             this.projectName,
-            this.selectName.replaceAll("\\", "/").match(/src(.*)$/)[1],
+            this.selectName.replace("\\g", "/").match(/src(.*)$/)[1],
             this.totalApiNames.join(","),
             this.apiUrl
           )
