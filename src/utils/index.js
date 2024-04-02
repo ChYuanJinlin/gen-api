@@ -73,7 +73,7 @@ module.exports = {
   createfolderFile,
   toCamelCase(str) {
     return str.replace(/([/_-][a-z])/g, (group) =>
-      group.toUpperCase().replaceAll(/\/|_|-/g, "")
+      group.toUpperCase().replace(/\/|_|-/g, "")
     );
   },
   async getRes(page, url, spinner) {

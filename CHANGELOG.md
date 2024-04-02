@@ -1,5 +1,12 @@
 
 
+## [1.0.4](https://github.com/ChYuanJinlin/gen-yapi/compare/1.0.3...1.0.4) (2024-04-02)
+
+
+### Bug Fixes
+
+* 修改兼容问题 ([59f5731](https://github.com/ChYuanJinlin/gen-yapi/commit/59f57311f97f7855cce02728b43d56ef79ee2fa0))
+
 ## [1.0.3](https://github.com/ChYuanJinlin/gen-yapi/compare/1.0.2...1.0.3) (2024-04-02)
 
 
