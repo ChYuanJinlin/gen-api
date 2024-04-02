@@ -1,6 +1,6 @@
 {
   "name": "@yuanjinlin/gen-api",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "轻量化简易一键生成在线文档api接口,告别人力的copy",
   "bin": {
     "gen-api": "./bin/gen-api.js"
