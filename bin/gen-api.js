@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const path = require("path");
 const GenApi = require("../src/index");
+
 const {
   getFileData,
   createfolderFile
@@ -10,15 +11,15 @@ const fs = require("fs");
 let docsWebs = [];
 
 docsWebs = fs
-  .readdirSync(path.join(process.cwd(), "src", "core"))
+  .readdirSync(path.join(__dirname, "../src", "core"))
   .map((file) => {
     return file.replace(".js", "")
   });
 
 // 获取配置文件的数据
 const [configData, axiosData] = getFileData(
-  "src/config/api.config.js",
-  "src/config/axios.js"
+  "../config/api.config.js",
+  "../config/axios.js"
 );
 
 switch (process.argv[2]) {

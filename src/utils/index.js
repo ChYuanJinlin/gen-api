@@ -92,7 +92,7 @@ module.exports = {
   },
   getFileData(...args) {
     return args.map((_path) => {
-      return fs.readFileSync(path.join(process.cwd(), _path), "utf-8");
+      return fs.readFileSync(path.join(__dirname, _path), "utf-8");
     });
   },
 };

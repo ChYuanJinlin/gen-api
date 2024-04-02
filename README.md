@@ -1,8 +1,7 @@
 # gen-api
 
-[![gen-api-v1.0.0](https://img.shields.io/npm/dependency-version/%40yuanjinlin%2Fgen-api/%40yuanjinlin%2Fgen-api)](https://www.npmjs.com/package/@yuanjinlin/gen-api) ![Node Current](https://img.shields.io/node/v/%40yuanjinlin%2Fgen-api?logo=nodedotjs&color=blue)
-![NPM Version](https://img.shields.io/npm/v/%40yuanjinlin%2Fgen-api?logo=npm) ![NPM License](https://img.shields.io/npm/l/%40yuanjinlin%2Fgen-api)
-
+[![NPM Version](https://img.shields.io/npm/v/%40yuanjinlin%2Fgen-api?logo=npm)](https://www.npmjs.com/package/@yuanjinlin/gen-api) ![Node Current](https://img.shields.io/node/v/%40yuanjinlin%2Fgen-api?logo=nodedotjs&color=blue)
+![NPM License](https://img.shields.io/npm/l/%40yuanjinlin%2Fgen-api)
 
 ## 介绍
 
