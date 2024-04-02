@@ -3,8 +3,7 @@ const path = require("path");
 const GenApi = require("../src/index");
 const {
   getFileData,
-  createfolderFile,
-  getFilenames,
+  createfolderFile
 } = require("../src/utils/index");
 let configPath = "";
 const fs = require("fs");

@@ -10,7 +10,7 @@ const getFilenames = (dir, callback) => {
      process.exit()
     }
   }
-  // ensureDirectoryExistence(dir);
+  ensureDirectoryExistence(dir);
 
   fs.readdir(dir, (err, files) => {
     if (err) throw err;
