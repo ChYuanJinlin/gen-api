@@ -39,7 +39,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://github.com/ChYuanJinlin/gen-yapi.git"
   },
   "engines": {
     "node": ">=14.15.0",
@@ -64,8 +64,15 @@
         "strictSemVer": true
       }
     },
+    "github": {
+      "release": true,
+      "autoGenerate":true
+    },
     "git": {
-      "commitMessage": "chore(tag): release v${version}"
+      "commitMessage": "chore(tag): release v${version}",
+      "commit": true,
+      "tag": true,
+      "push": true
     }
   }
 }
