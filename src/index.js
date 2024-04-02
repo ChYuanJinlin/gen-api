@@ -1,5 +1,6 @@
+const path = require("path");
 require("./utils/Generator");
-const Yapi = require("./core/yapi");
+const Yapi = require(path.join(__dirname,'core/yapi'));
 
 module.exports = class GenApi {
   constructor() {}
